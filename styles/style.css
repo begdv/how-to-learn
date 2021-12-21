@@ -13,10 +13,6 @@
   margin-top: 100px;
 }
 
-.paragraph-margin-top{
-  margin-top: 30px;
-}
-
 .block-center-gorizontal{
   margin: 0 auto;
 }
@@ -122,10 +118,62 @@
   margin: 0;
 }
 
+.two-columns__paragraph_margin-top{
+  margin-top: 30px;
+}
+
 .two-columns__span-accent{
   font-weight: bold;
   line-height: 34px;
   font-size: 24px;    
+}
+
+.digits{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title{
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-subtitle{
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  justify-content: space-between;
+}
+
+.table__cell{
+  width: 250px;
+  margin: 60px 0 0 0;
+}
+
+.table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin:0;
+  padding: 0;
+}
+
+.table__text{
+  line-height: 1.2;
+  font-size: 18px;
+  padding: 20px 0 0 0;
+  margin: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
