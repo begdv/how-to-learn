@@ -9,40 +9,123 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.section-margin-top{
+  margin-top: 100px;
+}
+
+.paragraph-margin-top{
+  margin-top: 30px;
+}
+
+.block-center-gorizontal{
+  margin: 0 auto;
+}
+
 .header {
+  display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  position: relative;
 }
 
 .logo{
   width: 183px;
+  z-index: 1;
 }
 
-logo_place_header{
+.logo_place_header{
   height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px; 
+  background-image: url(../images/logo_place_header.svg);  
 }
 
 .header__title {
   width: 730px;
-}
+  align-items: center;
+  margin: auto 0;
+  padding-left: 64px;  
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+ }
 
 .header__subtitle {
   width: 388px;
+  position: absolute; 
+  bottom: 30px;
+  left: 64px;  
+  z-index: 1; 
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;    
 }
 
-.header__main-illustration {
+.header__main-illustration { 
   height: 608px;
   width: 765px;
+  position: absolute; 
+  right: 0;      
+  bottom: 0;
   background-image: url(../images/header-image.png);
+  background-color: rgba(255 255 255 0);
+  z-index: 1;
+  background-size : cover;  
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;       
   background-color: #2f80ed;
+}
+
+.description{
+  display: flex;
+}
+
+.two-columns{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.two-columns__brief{
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  margin: 0;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text{
+  width: 80%; 
+  min-width: 784px;
+  margin: 0;  
+}
+
+.two-columns__paragraph{
+  line-height: 34px;
+  font-size: 24px;
+  padding: 0;
+  margin: 30px 0 0;
+}
+
+.two-columns__paragraph:first-child{
+  margin: 0;
+}
+
+.two-columns__span-accent{
+  font-weight: bold;
+  line-height: 34px;
+  font-size: 24px;    
 }
 
 /* и элемента с модификатором вида ключ-значение */
