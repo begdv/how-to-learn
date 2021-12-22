@@ -28,14 +28,14 @@
   height: 32px;
   position: absolute;
   top: 30px;
-  left: 64px; 
+  left: 64px;
   background-image: url(../images/logo_place_header.svg);  
 }
 
 .header__title {
   width: 730px;
   margin: auto 0;
-  padding-left: 64px;  
+  padding-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -44,10 +44,10 @@
 
 .header__subtitle {
   width: 388px;
-  position: absolute; 
+  position: absolute;
   bottom: 30px;
-  left: 64px;  
-  z-index: 1; 
+  left: 64px;
+  z-index: 1;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;    
@@ -56,8 +56,8 @@
 .header__main-illustration { 
   height: 608px;
   width: 765px;
-  position: absolute; 
-  right: 0;      
+  position: absolute;
+  right: 0;
   bottom: 0;
   z-index: 1;
 }
@@ -68,7 +68,7 @@
   width: 568px;
   position: absolute;
   top: 64px;
-  right: 0;       
+  right: 0;
   background-color: #2f80ed;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .two-columns__main-text{
-  width: 80%; 
+  width: 80%;
   min-width: 784px;
   margin: 0;  
 }
@@ -190,7 +190,7 @@
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
-  position: relative;  
+  position: relative;
   margin: 0 auto;
   z-index: 1;  
 }
@@ -202,16 +202,16 @@
   text-align: center;
   z-index: 1;
   position: relative;
-  top: 70px;  
+  top: 70px;
   margin: 0 auto;
 }
 
 .feynman__link{
   position: absolute;
   right: 48px;
-  top: 50%; 
+  top: 50%;
   line-height: 51px;
-  font-size: 36px;  
+  font-size: 36px;
   color: #2f80ed;  
 }  
 
