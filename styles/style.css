@@ -230,10 +230,6 @@
   bottom: 0;
 }
 
-.content__feynman{
-  margin-top: 100px;
-}
-
 .kaufman{
   display: flex;
   flex-direction: column;
@@ -280,11 +276,6 @@
   box-sizing: border-box;
 }
 
-.page__footer{
-  margin-top: 60px;
-  margin-bottom: 40px;
-}
-
 .footer__columns{
   display: flex;
   width: 90%;
@@ -324,13 +315,13 @@
   padding: 0;
   font-weight: normal;
   margin: 0 0 16px;
-  text-decoration: none;
-}
+ }
 
 .footer__column-link{
   line-height: 30px;
   font-size: 18px;
   color: white;
+  text-decoration: none;
 }
 
 .footer__social-icon{
