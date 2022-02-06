@@ -3,7 +3,7 @@
   height: 38px;
   text-align: center;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
 }
 
